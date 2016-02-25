@@ -1,0 +1,151 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/cfarrell/cpre381/Project-A-Part1
+T_opt
+Z1 VmazRNdL14QWmnHZ0;bAiR1
+Z2 04 3 10 work cpu behavioral 1
+Z3 04 3 10 work mem behavioral 1
+Z4 04 7 8 work tb_cpu0 behavior 1
+Z5 =1--561c1e6e-5f8b4-24cf
+Z6 o-quiet -auto_acc_if_foreign -work work
+Z7 n@_opt
+Z8 OL;O;6.5c;42
+Ecpu
+Z9 w1443738951
+Z10 DPx43 /home/cfarrell/cpre381/Project-A-Part1/work 6 mips32 0 22 f?^X8ok?IOAf2FKN5?TlW2
+Z11 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z12 8/home/cfarrell/cpre381/Project-A-Part1/cpu_entity.vhd
+Z13 F/home/cfarrell/cpre381/Project-A-Part1/cpu_entity.vhd
+l0
+L15
+Z14 V9:Yg3h357NnjlfZ]1n08<2
+Z15 OL;C;6.5c;42
+Z16 o-work work
+Z17 tExplicit 1
+Z18 !s100 ;Fiz22nF]JV?1I_3cD_[k1
+Abehavioral
+Z19 w1444683337
+Z20 DEx43 /home/cfarrell/cpre381/Project-A-Part1/work 3 cpu 0 22 9:Yg3h357NnjlfZ]1n08<2
+R10
+Z21 DPx17 __model_tech/ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R11
+32
+Z22 Mx5 17 __model_tech/ieee 14 std_logic_1164
+Mx4 17 __model_tech/ieee 11 numeric_std
+Mx3 43 /home/cfarrell/cpre381/Project-A-Part1/work 6 mips32
+Mx2 16 __model_tech/std 6 textio
+Mx1 17 __model_tech/ieee 16 std_logic_textio
+Z23 8/home/cfarrell/cpre381/Project-A-Part1/cpu_behavior.vhd
+Z24 F/home/cfarrell/cpre381/Project-A-Part1/cpu_behavior.vhd
+l33
+L18
+Z25 VC8H07YcXFF[8SXo<l@BVF0
+R15
+R16
+R17
+Z26 !s100 z`BRPVIVLloaco90mC0fH3
+Emem
+Z27 w1443459794
+Z28 DPx16 __model_tech/std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z29 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z30 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R11
+32
+Z31 8/home/cfarrell/cpre381/Project-A-Part1/mem.vhd
+Z32 F/home/cfarrell/cpre381/Project-A-Part1/mem.vhd
+l0
+L24
+Z33 Vz5TPo>YT_2UOBV7KNKm622
+R15
+R16
+R17
+Z34 !s100 ezEVimmkmL`[3UZOl5F8c2
+Abehavioral
+32
+R28
+R29
+R30
+R11
+Z35 DEx43 /home/cfarrell/cpre381/Project-A-Part1/work 3 mem 0 22 z5TPo>YT_2UOBV7KNKm622
+Z36 Mx4 17 __model_tech/ieee 14 std_logic_1164
+Mx3 17 __model_tech/ieee 15 std_logic_arith
+Mx2 17 __model_tech/ieee 18 std_logic_unsigned
+Mx1 16 __model_tech/std 6 textio
+l477
+L35
+Z37 V60RKQ_:f9IG6VT^TQg66S1
+R15
+R16
+R17
+Z38 !s100 a7fl:]7<GH3d:R3?Fga5E0
+Pmips32
+R11
+32
+b1
+Mx1 17 __model_tech/ieee 14 std_logic_1164
+Z39 w1443745759
+Z40 8/home/cfarrell/cpre381/Project-A-Part1/mips32.vhd
+Z41 F/home/cfarrell/cpre381/Project-A-Part1/mips32.vhd
+l0
+L9
+Z42 Vf?^X8ok?IOAf2FKN5?TlW2
+R15
+b1
+R16
+R17
+Z43 !s100 B7`Jb]Yhz>QUnGd:4?hc:0
+Bbody
+R21
+DPx17 __model_tech/ieee 16 std_logic_textio 0 22 8YS?iX`WD1REQG`ZRYQGB2
+R28
+DBx43 /home/cfarrell/cpre381/Project-A-Part1/work 6 mips32 0 22 f?^X8ok?IOAf2FKN5?TlW2
+R11
+32
+R36
+Z44 Mx3 16 __model_tech/std 6 textio
+Z45 Mx2 17 __model_tech/ieee 16 std_logic_textio
+Z46 Mx1 17 __model_tech/ieee 11 numeric_std
+l0
+L64
+Z47 VcPBN8c65z6MEb5_lkm[322
+R15
+R16
+R17
+nbody
+Z48 !s100 F>g>Y?@P0U>L81nchBTGY3
+Etb_cpu0
+Z49 w1443753540
+R10
+R11
+32
+Z50 8/home/cfarrell/cpre381/Project-A-Part1/tb_cpu0.vhd
+Z51 F/home/cfarrell/cpre381/Project-A-Part1/tb_cpu0.vhd
+l0
+L8
+Z52 VzDUj31TI[ZmKOX[dVli4;1
+R15
+R16
+R17
+Z53 !s100 LU7:WUdAL7DgB7AkNGhD[2
+Abehavior
+R35
+R20
+R10
+R11
+DEx43 /home/cfarrell/cpre381/Project-A-Part1/work 7 tb_cpu0 0 22 zDUj31TI[ZmKOX[dVli4;1
+32
+R22
+Mx4 43 /home/cfarrell/cpre381/Project-A-Part1/work 6 mips32
+R44
+R45
+R46
+l56
+L11
+Z54 V??hn`6AKKR`zbVPezjQN`3
+R15
+R16
+R17
+Z55 !s100 bzbC61YBHUYR7[H5_Vgno3

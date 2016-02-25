@@ -1,0 +1,89 @@
+-------------------------------------------------------------------------
+-- Collin Farrell and Jeffery Schons
+-------------------------------------------------------------------------
+
+
+-- part3a.vhd
+-------------------------------------------------------------------------
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+entity part3a is
+  port(a		: in std_logic;
+       b 	 	: in std_logic;
+       cin		: in std_logic;
+       cout 		: out std_logic;
+       sum		: out std_logic);
+
+end part3a;
+
+architecture structure of part3a is
+  
+
+  component and2
+    port(i_A          : in std_logic;
+       i_B          : in std_logic;
+       o_F          : out std_logic);
+  end component;
+
+  component or2
+    port(i_A          : in std_logic;
+       i_B          : in std_logic;
+       o_F          : out std_logic);
+  end component;
+
+  component xor2
+    port(i_A          : in std_logic;
+	 i_B	      : in std_logic;
+         o_F          : out std_logic);
+  end component;
+
+
+--A or B exclusive
+  signal sVALUE_AxorB: std_logic;
+--A and B
+  signal sVALUE_AB : std_logic;
+--cin*(A xor B)
+  signal sVALUE_cinAxorB : std_logic;
+
+begin
+
+  
+  ---------------------------------------------------------------------------
+  -- Level 1: Calculate A xor B, calculate A and B
+  ---------------------------------------------------------------------------
+  g_firstXor: xor2
+    port MAP(i_A              => a,
+	     i_B	      => b,
+             o_F              => sVALUE_AxorB);
+
+  g_firstAnd: and2
+    port MAP(i_A              => a,
+             i_B              => b,
+             o_F              => sVALUE_AB);
+
+    
+ ---------------------------------------------------------------------------
+  -- Level 2: Calculate cin*(A xor B)
+  ---------------------------------------------------------------------------
+  g_secondAnd: and2
+    port MAP(i_A              => cin,
+             i_B              => sVALUE_AxorB,
+             o_F              => sVALUE_cinAxorB);
+    
+  ---------------------------------------------------------------------------
+  -- Level 3: Calculate (a*~s)+(b*s)
+  ---------------------------------------------------------------------------
+  g_firstOr: or2
+    port MAP(i_A              => sVALUE_cinAxorB,
+             i_B              => sVALUE_AB,
+             o_F              => cout);
+  
+  g_secondXor: xor2
+    port MAP(i_A              => sVALUE_AxorB,
+             i_B              => cin,
+             o_F              => sum);
+
+end structure;

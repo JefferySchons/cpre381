@@ -1,0 +1,237 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/cfarrell/cpre381/Lab-03
+T_opt
+V]kZjmRh5_T^bZX1>h_9792
+Z1 04 9 9 work attempt1a structure 1
+Z2 04 3 5 work dff mixed 1
+Z3 04 5 5 work partd dflow 1
+04 5 5 work parte dflow 1
+04 5 9 work partg structure 1
+Z4 =1--5609ce7f-870b2-598d
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 n@_opt
+Z7 OL;O;6.5c;42
+T_opt1
+Z8 Va=jhoPohN;_BhYX`GEZ:b0
+R1
+R2
+Z9 04 4 8 work tb1b behavior 1
+Z10 =1--5609b037-e4d5d-3cc
+R5
+Z11 n@_opt1
+R7
+T_opt2
+Z12 V0YW4>jW5c>_O]I]<DKPAh3
+R3
+Z13 =1--5609bff4-8460c-31ac
+R5
+Z14 n@_opt2
+R7
+Parray2d
+Z15 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z16 w1442876722
+Z17 8/home/cfarrell/cpre381/Lab-03/array2D.vhd
+Z18 F/home/cfarrell/cpre381/Lab-03/array2D.vhd
+l0
+L5
+Z19 V=W8dSMF2OHzjQG5J<4CPQ1
+Z20 OL;C;6.5c;42
+32
+Z21 Mx1 4 ieee 14 std_logic_1164
+Z22 o-work work
+Z23 tExplicit 1
+Z24 !s100 MnP>I_5fZ]DI95WCg^^JG0
+Eattempt1a
+Z25 w1443473372
+R15
+Z26 8/home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+Z27 F/home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+l0
+L14
+Z28 VLFcJLOTkU@YMl8ake0bJM1
+R20
+32
+R22
+R23
+Z29 !s100 LAoZk5;5>[29ZQh=mJ>HY2
+Astructure
+R15
+Z30 DEx4 work 9 attempt1a 0 22 LFcJLOTkU@YMl8ake0bJM1
+l38
+L24
+Z31 V8kbIe:S[YLHMQPc`]bJP10
+R20
+32
+R21
+R22
+R23
+Z32 !s100 gYl;3f43NaO:>1zIh>YmN0
+Edff
+Z33 w1282148150
+R15
+Z34 8/home/cfarrell/cpre381/Lab-03/dff.vhd
+Z35 F/home/cfarrell/cpre381/Lab-03/dff.vhd
+l0
+L21
+Z36 VMa;f0KR]B@[ZE5zJaAojY0
+R20
+32
+R22
+R23
+Z37 !s100 VzHYe^Oj9?z_PmManRSFF2
+Amixed
+R15
+Z38 DEx4 work 3 dff 0 22 Ma;f0KR]B@[ZE5zJaAojY0
+l35
+L31
+Z39 V_Z^;3Gef@5MiP2oGPHeCc3
+R20
+32
+R21
+R22
+R23
+Z40 !s100 SMjUE1B?1Uc2eOI4WCI[63
+Epart1a
+Z41 w1443217081
+R15
+Z42 8/home/cfarrell/cpre381/Lab-03/part1a.vhd
+Z43 F/home/cfarrell/cpre381/Lab-03/part1a.vhd
+l0
+L14
+Z44 VA=kDkO0ZeMQX[aZ^nR?ja1
+R20
+32
+R22
+R23
+Z45 !s100 iOJzodiF<lzA>=SAFZ<CU3
+Epartd
+Z46 w1443479511
+R15
+Z47 8/home/cfarrell/cpre381/Lab-03/partd.vhd
+Z48 F/home/cfarrell/cpre381/Lab-03/partd.vhd
+l0
+L9
+Z49 VlN9Mkn7RG:lnGZ603ERD<3
+R20
+32
+R22
+R23
+Z50 !s100 l>PLa;0P6C>L[@BVA3O`J0
+Adflow
+R15
+Z51 DEx4 work 5 partd 0 22 lN9Mkn7RG:lnGZ603ERD<3
+l16
+L15
+Z52 V=AO8:G<NcnJi9f8gmiEUh2
+R20
+32
+R21
+R22
+R23
+Z53 !s100 QE@f>mdJQFHk^g?@PQ6Qd0
+Eparte
+Z54 w1443480907
+R15
+Z55 8/home/cfarrell/cpre381/Lab-03/parte.vhd
+Z56 F/home/cfarrell/cpre381/Lab-03/parte.vhd
+l0
+L8
+Z57 VimL70Li]OD`HzYdQzob9U0
+R20
+32
+R22
+R23
+Z58 !s100 <UNEb6@EEm`7B2>dg=@8c2
+Adflow
+R15
+Z59 DEx4 work 5 parte 0 22 imL70Li]OD`HzYdQzob9U0
+l49
+L47
+Z60 VXIzKKFhKS09AKFD;XmPkD2
+R20
+32
+R21
+R22
+R23
+Z61 !s100 >H@<M=Oz1nU1BVL0FD8H91
+Epartg
+Z62 w1443483139
+Z63 DPx4 work 7 array2d 0 22 =W8dSMF2OHzjQG5J<4CPQ1
+R15
+Z64 8/home/cfarrell/cpre381/Lab-03/partg.vhd
+Z65 F/home/cfarrell/cpre381/Lab-03/partg.vhd
+l0
+L5
+Z66 Vc]DSNGl2>oE?Pm5b1`f9H3
+R20
+32
+R22
+R23
+Z67 !s100 I4Chjm<og1VT2Y[^5LUI20
+Astructure
+R63
+R15
+Z68 DEx4 work 5 partg 0 22 c]DSNGl2>oE?Pm5b1`f9H3
+l72
+L17
+Z69 Vc2CO@>0D<1]<gdP?e8i<P2
+R20
+32
+Z70 Mx2 4 ieee 14 std_logic_1164
+Z71 Mx1 4 work 7 array2d
+R22
+R23
+Z72 !s100 UQMKC_^XW3znPjcOE00iW0
+Etb1b
+Z73 w1443475489
+R15
+Z74 8/home/cfarrell/cpre381/Lab-03/tb1b.vhd
+Z75 F/home/cfarrell/cpre381/Lab-03/tb1b.vhd
+l0
+L21
+Z76 VO49>]ale=n5ckn=1d@bje2
+R20
+32
+R22
+R23
+Z77 !s100 7W9_Jh<K3nMl8g^3:i1iT0
+Abehavior
+R15
+Z78 DEx4 work 4 tb1b 0 22 O49>]ale=n5ckn=1d@bje2
+l48
+L25
+Z79 V4:gD7M:eNBzL83X^im[<i2
+R20
+32
+R21
+R22
+R23
+Z80 !s100 _NGJc>^6;KTWUn4`JWK7D0
+Etb_dff
+R33
+R15
+Z81 8/home/cfarrell/cpre381/Lab-03/tb_dff.vhd
+Z82 F/home/cfarrell/cpre381/Lab-03/tb_dff.vhd
+l0
+L21
+Z83 VWM;2d:M[E?HRE2;k6n3Pg3
+R20
+32
+R22
+R23
+Z84 !s100 2?bfmc^@[>n7Qc^i4jRzQ0
+Abehavior
+R15
+Z85 DEx4 work 6 tb_dff 0 22 WM;2d:M[E?HRE2;k6n3Pg3
+l43
+L25
+Z86 VLAVmA1Ve1amW0W8gQHb4c3
+R20
+32
+R21
+R22
+R23
+Z87 !s100 URzU<]mo>C:@daE<Q09jf3

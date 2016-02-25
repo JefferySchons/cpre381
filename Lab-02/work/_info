@@ -1,0 +1,455 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/cfarrell/cpre381/Lab-02
+Eand2
+Z1 w1282148150
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 8/home/cfarrell/cpre381/Lab-02/and2.vhd
+Z4 F/home/cfarrell/cpre381/Lab-02/and2.vhd
+l0
+L21
+VfVL4Ze9kLmF^WI1lHIJ^a2
+Z5 OL;C;6.5c;42
+32
+Z6 o-work work
+Z7 tExplicit 1
+!s100 ?nTgX59O`[<]j^L4E@N3<1
+Adataflow
+R2
+DEx4 work 4 and2 0 22 fVL4Ze9kLmF^WI1lHIJ^a2
+l30
+L29
+VLbzWnS]heH@[dZ36T_];E3
+R5
+32
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 2]QXgT@2`<[OgNlO=gZiS0
+Egenerate_example
+R1
+R2
+Z9 8/home/cfarrell/cpre381/Lab-02/generate_example.vhd
+Z10 F/home/cfarrell/cpre381/Lab-02/generate_example.vhd
+l0
+L21
+V2cEz]3Y_^NA<==2C56HGH0
+R5
+32
+R6
+R7
+!s100 L2GLZlH0RJ7a6EQeRc4B42
+Astructure
+R2
+DEx4 work 16 generate_example 0 22 2cEz]3Y_^NA<==2C56HGH0
+l37
+L29
+VSmfgl6eQVS2n4UTF9K4mZ1
+R5
+32
+R8
+R6
+R7
+!s100 KYQi90jlP6`ki0F>=@zH]1
+Einv
+R1
+R2
+Z11 8/home/cfarrell/cpre381/Lab-02/inv.vhd
+Z12 F/home/cfarrell/cpre381/Lab-02/inv.vhd
+l0
+L21
+VkSo09h=RWQaSU4AA]H_Wh3
+R5
+32
+R6
+R7
+!s100 I=E9IQAB=_L[eRzf6_J`e1
+Adataflow
+R2
+DEx4 work 3 inv 0 22 kSo09h=RWQaSU4AA]H_Wh3
+l29
+L28
+V7o0al<=MRKSDRTMX_6dTN1
+R5
+32
+R8
+R6
+R7
+!s100 o3LAce^L_K;V0OBiFSgDA0
+Eoc
+Z13 w1442608789
+R2
+Z14 8/home/cfarrell/cpre381/Lab-02/part1c.vhd
+Z15 F/home/cfarrell/cpre381/Lab-02/part1c.vhd
+l0
+L20
+VB`KjcUBE`PfH8Rg[AHM7K0
+R5
+32
+R6
+R7
+!s100 4gLzU3Jaz1BD;S08]EoZ80
+Astructure
+R2
+DEx4 work 2 oc 0 22 B`KjcUBE`PfH8Rg[AHM7K0
+l35
+L28
+VT@85dZid2FJ8TO4XO_M8M1
+R5
+32
+R8
+R6
+R7
+!s100 B`Bc>45zdQPhhC_iI2PND0
+Eoc2
+Z16 w1442342388
+R2
+Z17 8/home/cfarrell/cpre381/Lab-02/OC2.vhd
+Z18 F/home/cfarrell/cpre381/Lab-02/OC2.vhd
+l0
+L20
+VbiC2Kkl?O9@Wz1JNXGzB:2
+R5
+32
+R6
+R7
+!s100 f[LBDOC1CCBidC<LHHH_:2
+Astructure
+R2
+DEx4 work 3 oc2 0 22 biC2Kkl?O9@Wz1JNXGzB:2
+l34
+L27
+VZ5]9l6<i8aCA6V;WkNh0B2
+R5
+32
+R8
+R6
+R7
+!s100 6bXzQK?WI07JG9eMHnL5Y1
+Eocw
+Z19 w1442342804
+R2
+Z20 8/home/cfarrell/cpre381/Lab-02/OCW.vhd
+Z21 F/home/cfarrell/cpre381/Lab-02/OCW.vhd
+l0
+L21
+Va]37T4KI:QI2X52I47?^L1
+R5
+32
+R6
+R7
+!s100 K:A0LFE86F`eSDcji_K6K2
+Abehavior
+R2
+DEx4 work 3 ocw 0 22 a]37T4KI:QI2X52I47?^L1
+l44
+L25
+V[NZM7gBV3cSUcf3AMEfSg3
+R5
+32
+R8
+R6
+R7
+!s100 a]MKXU3MI=]?_6M5b>iOz1
+Eor2
+R1
+R2
+Z22 8/home/cfarrell/cpre381/Lab-02/or2.vhd
+Z23 F/home/cfarrell/cpre381/Lab-02/or2.vhd
+l0
+L21
+VQ5jj`QMaAZGS77OQ=E:SN3
+R5
+32
+R6
+R7
+!s100 GZnm45]@TOZN;V>CA[0Z12
+Adataflow
+R2
+DEx4 work 3 or2 0 22 Q5jj`QMaAZGS77OQ=E:SN3
+l30
+L29
+V6h9d6BaoaR`kMXR4UCT``3
+R5
+32
+R8
+R6
+R7
+!s100 GLP627^LGVOJ5LHjUXG]k3
+Epart2c
+Z24 w1442943135
+R2
+Z25 8/home/cfarrell/cpre381/Lab-02/part2c.vhd
+Z26 F/home/cfarrell/cpre381/Lab-02/part2c.vhd
+l0
+L17
+VGV0HNYWo06eMG]lgJUo8m1
+R5
+32
+R6
+R7
+!s100 URR7lB`dJTalz3:jP:^2m2
+Astructure
+R2
+DEx4 work 6 part2c 0 22 GV0HNYWo06eMG]lgJUo8m1
+l35
+L26
+VRd_98PgEfDEh=FSfb7d;02
+R5
+32
+R8
+R6
+R7
+!s100 3PO^[LcTPgn5`77^`3?5O2
+Epart2d
+Z27 w1442943153
+R2
+Z28 8/home/cfarrell/cpre381/Lab-02/part2d.vhd
+Z29 F/home/cfarrell/cpre381/Lab-02/part2d.vhd
+l0
+L17
+V2^1`9^SWJYi?mbNEai:?T0
+R5
+32
+R6
+R7
+!s100 <f65?7VF6RS7;bIUMgOBk1
+Astructure
+R2
+DEx4 work 6 part2d 0 22 2^1`9^SWJYi?mbNEai:?T0
+l35
+L26
+VWOVNf292K3`;QRkOlghLD2
+R5
+32
+R8
+R6
+R7
+!s100 [KXUbQSFQMZd9W1>@`?Xl3
+Epart2e
+Z30 w1442943263
+R2
+Z31 8/home/cfarrell/cpre381/Lab-02/part2e.vhd
+Z32 F/home/cfarrell/cpre381/Lab-02/part2e.vhd
+l0
+L21
+V@Z5N@3SmD8@7ThkG0a2F_0
+R5
+32
+R6
+R7
+!s100 3<=A>Ied[TVFn9<DYd=Pl1
+Abehavior
+R2
+DEx4 work 6 part2e 0 22 @Z5N@3SmD8@7ThkG0a2F_0
+l51
+L25
+V8bOTmDMGbezWH0FlnOmJ^0
+R5
+32
+R8
+R6
+R7
+!s100 4^3EbH_=zEVDY5G=O1Ae92
+Epart3a
+Z33 w1442611945
+R2
+Z34 8/home/cfarrell/cpre381/Lab-02/part3a.vhd
+Z35 F/home/cfarrell/cpre381/Lab-02/part3a.vhd
+l0
+L13
+VXeBe6:EISo<MIE?J5jD_H0
+R5
+32
+R6
+R7
+!s100 NSJY_D7AdSV]:3USZ0W>Y2
+Astructure
+R2
+DEx4 work 6 part3a 0 22 XeBe6:EISo<MIE?J5jD_H0
+l51
+L22
+VC[fPF>FlO;e8A:^B8LJ=03
+R5
+32
+R8
+R6
+R7
+!s100 QL3DlbN0U3c87af2i;C;I3
+Epart3b
+Z36 w1442614618
+R2
+Z37 8/home/cfarrell/cpre381/Lab-02/part3b.vhd
+Z38 F/home/cfarrell/cpre381/Lab-02/part3b.vhd
+l0
+L13
+V2SQG6VOY`b@Y4IA771cbR0
+R5
+32
+R6
+R7
+!s100 K43hjD>=:T9P;OioC@<:]3
+Astructure
+R2
+DEx4 work 6 part3b 0 22 2SQG6VOY`b@Y4IA771cbR0
+l34
+L23
+V8QXcf?05G=n2UIVoXT;210
+R5
+32
+R8
+R6
+R7
+!s100 HT`a]95>;bUEOBNFVTKdJ0
+Epart3d
+Z39 w1442618059
+R2
+Z40 8/home/cfarrell/cpre381/Lab-02/part3d.vhd
+Z41 F/home/cfarrell/cpre381/Lab-02/part3d.vhd
+l0
+L13
+VL6dJBI9EHK71LkR[k`Z7Q3
+R5
+32
+R6
+R7
+!s100 =zOj<o1ddP`Rh<RaXS0XN2
+Astructure
+R2
+DEx4 work 6 part3d 0 22 L6dJBI9EHK71LkR[k`Z7Q3
+l27
+L23
+V<=z>G=eg;h1:]A6>dBiC62
+R5
+32
+R8
+R6
+R7
+!s100 6K=m`LJ[bb91JljB`RQG71
+Epart3e
+Z42 w1442944050
+R2
+Z43 8/home/cfarrell/cpre381/Lab-02/part3e.vhd
+Z44 F/home/cfarrell/cpre381/Lab-02/part3e.vhd
+l0
+L13
+V79^8?JF[Qg^E4zjJIe^C23
+R5
+32
+R6
+R7
+!s100 c<<5V=^nihzkfVdC@:kW52
+Abehavior
+R2
+DEx4 work 6 part3e 0 22 79^8?JF[Qg^E4zjJIe^C23
+l45
+L17
+VSl<]Dl9>VWg5ggodzQ_0D1
+R5
+32
+R8
+R6
+R7
+!s100 0;AmWeU@i[UWK4gPNK]oW3
+Epart4b
+Z45 w1442947556
+R2
+Z46 8/home/cfarrell/cpre381/Lab-02/part4b.vhd
+Z47 F/home/cfarrell/cpre381/Lab-02/part4b.vhd
+l0
+L13
+VZiz^8YfO5Q7EgPZ[MjXn:2
+R5
+32
+R6
+R7
+!s100 mKTT=L132cfn8O5J2:VXP1
+Astructure
+R2
+DEx4 work 6 part4b 0 22 Ziz^8YfO5Q7EgPZ[MjXn:2
+l50
+L24
+Vz8z9>j>IGKDg0K@=TfdoC3
+R5
+32
+R8
+R6
+R7
+!s100 BYfXMghfUJJiFm;@8FTke0
+Etb_and2
+R1
+R2
+Z48 8/home/cfarrell/cpre381/Lab-02/tb_and2.vhd
+Z49 F/home/cfarrell/cpre381/Lab-02/tb_and2.vhd
+l0
+L22
+VKiibc_mgGX7IRN1NdFXB;1
+R5
+32
+R6
+R7
+!s100 29Ei1[TSBA[jR:>5V^Tz62
+Abehavior
+R2
+DEx4 work 7 tb_and2 0 22 Kiibc_mgGX7IRN1NdFXB;1
+l38
+L26
+VQA>i_lI=Z1EO;7GeeZbJ?1
+R5
+32
+R8
+R6
+R7
+!s100 FjJNfWHL=nRoUzeh4L3X31
+Etbomux
+Z50 w1442340508
+R2
+Z51 8/home/cfarrell/cpre381/Lab-02/tbomux.vhd
+Z52 F/home/cfarrell/cpre381/Lab-02/tbomux.vhd
+l0
+L16
+VK?END]W_aN_F1e@F@SD1k3
+R5
+32
+R6
+R7
+!s100 dIeBcEH]P7VLX@?WzMh7Z2
+Astructure
+R2
+DEx4 work 6 tbomux 0 22 K?END]W_aN_F1e@F@SD1k3
+l54
+L25
+Vc?HJKzTYFFV46oDk;nz>J0
+R5
+32
+R8
+R6
+R7
+!s100 0WMdlz3Yz?o9NEc>>WTjc2
+Exor2
+R1
+R2
+Z53 8/home/cfarrell/cpre381/Lab-02/xor2.vhd
+Z54 F/home/cfarrell/cpre381/Lab-02/xor2.vhd
+l0
+L21
+V4<hnMi^zYM6eOWXYf:ikb2
+!s100 [9`N;7:7CbPFFM;HRMKMk3
+R5
+32
+R6
+R7
+Adataflow
+R2
+DEx4 work 4 xor2 0 22 4<hnMi^zYM6eOWXYf:ikb2
+l30
+L29
+VX3OzJB68@En2Z80HjahZC1
+!s100 :Qh_cIJZ<Mo73LWk82H_R0
+R5
+32
+R8
+R6
+R7

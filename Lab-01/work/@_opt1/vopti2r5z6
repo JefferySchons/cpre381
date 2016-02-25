@@ -1,0 +1,69 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/cfarrell/cpre381/Lab-01
+T_opt
+Z1 VkNZfLJBkJTm@VCh:0dR`h3
+Z2 04 5 8 work adder behavior 1
+Z3 =1--55e5f02f-84344-4dab
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.5c;42
+T_opt1
+Z7 VZ8>ZGGc=zgD1c6X7>G;Ze1
+Z8 04 10 8 work multiplier behavior 1
+Z9 =1--55e5f4a1-22f08-58dd
+R4
+Z10 n@_opt1
+R6
+Eadder
+Z11 w1440356685
+Z12 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z13 8Adder.vhd
+Z14 FAdder.vhd
+l0
+L26
+Z15 V6]5^0^P@>5INYhc?E1J412
+Z16 OL;C;6.5c;42
+32
+Z17 o-work work
+Z18 tExplicit 1
+Z19 !s100 ;TmZ4n>hokkzVI_7WHd`Q3
+Abehavior
+R12
+Z20 DEx4 work 5 adder 0 22 6]5^0^P@>5INYhc?E1J412
+l36
+L35
+Z21 VBc;4Jd6JD@:m1PC`jO]NJ1
+R16
+32
+Z22 Mx1 4 ieee 14 std_logic_1164
+R17
+R18
+Z23 !s100 G3_gd55RnI:_aK:i<aQLh2
+Emultiplier
+R11
+Z24 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z25 8Multiplier.vhd
+Z26 FMultiplier.vhd
+l0
+L26
+Z27 V@5lX=dWV5<_jT5eHg>Se]3
+R16
+R17
+R18
+Z28 !s100 5o2SlbX:H:j55DKnneIeO0
+Abehavior
+R24
+DEx34 /home/cfarrell/cpre381/Lab-01/work 10 multiplier 0 22 @5lX=dWV5<_jT5eHg>Se]3
+32
+Mx1 17 __model_tech/ieee 14 std_logic_1164
+l36
+L35
+Z29 VL=gFQ[>4]4nVO9hic:P>E1
+R16
+R17
+R18
+Z30 !s100 0LN6N`FYo?oCPWAMzB]RM1

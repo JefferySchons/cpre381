@@ -1,0 +1,82 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/cfarrell/cpre381/Lab-01
+T_opt
+VkNZfLJBkJTm@VCh:0dR`h3
+04 5 8 work adder behavior 1
+=1--55e5f02f-84344-4dab
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;6.5c;42
+T_opt1
+VZ8>ZGGc=zgD1c6X7>G;Ze1
+04 10 8 work multiplier behavior 1
+=1--55e5f4a1-22f08-58dd
+R1
+n@_opt1
+R2
+Eadder
+Z3 w1440356685
+Z4 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 8Adder.vhd
+Z6 FAdder.vhd
+l0
+L26
+V6]5^0^P@>5INYhc?E1J412
+Z7 OL;C;6.5c;42
+32
+Z8 o-work work
+Z9 tExplicit 1
+!s100 ;TmZ4n>hokkzVI_7WHd`Q3
+Abehavior
+R4
+DEx4 work 5 adder 0 22 6]5^0^P@>5INYhc?E1J412
+l36
+L35
+VBc;4Jd6JD@:m1PC`jO]NJ1
+R7
+32
+Z10 Mx1 4 ieee 14 std_logic_1164
+R8
+R9
+!s100 G3_gd55RnI:_aK:i<aQLh2
+Emultiplier
+R3
+R4
+Z11 8Multiplier.vhd
+Z12 FMultiplier.vhd
+l0
+L26
+V@5lX=dWV5<_jT5eHg>Se]3
+R7
+32
+R8
+R9
+!s100 5o2SlbX:H:j55DKnneIeO0
+Abehavior
+R4
+DEx4 work 10 multiplier 0 22 @5lX=dWV5<_jT5eHg>Se]3
+l36
+L35
+VL=gFQ[>4]4nVO9hic:P>E1
+R7
+32
+R10
+R8
+R9
+!s100 0LN6N`FYo?oCPWAMzB]RM1
+Equadratic
+w1441132481
+R4
+8Quadratic.vhd
+FQuadratic.vhd
+l0
+L22
+VSZgi_`:>G_gD^;]66`XE81
+!s100 [_IE[:LURD^k_[KjmJM2h3
+R7
+32
+R8
+R9

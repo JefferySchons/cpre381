@@ -1,0 +1,895 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 2.6.32-504.8.1.el6.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture mixed of attempt1a
+# ** Error: /home/cfarrell/cpre381/Lab-03/attempt1a.vhd(66): near ";": expecting "<=" or ":="
+# ** Error: /home/cfarrell/cpre381/Lab-03/attempt1a.vhd(70): near "generate": expecting "PROCESS"
+# ** Error: /home/cfarrell/cpre381/Lab-03/attempt1a.vhd(72): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture mixed of attempt1a
+# ** Error: /home/cfarrell/cpre381/Lab-03/attempt1a.vhd(52): near "process": expecting ';'
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture mixed of attempt1a
+# ** Error: /home/cfarrell/cpre381/Lab-03/attempt1a.vhd(52): near "process": expecting ';'
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture mixed of attempt1a
+# ** Error: /home/cfarrell/cpre381/Lab-03/attempt1a.vhd(54): near "EOF": syntax error
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture mixed of attempt1a
+# ** Error: /home/cfarrell/cpre381/Lab-03/attempt1a.vhd(50): Labels do not match: 'mixed' and 'structure'.
+# ** Error: /home/cfarrell/cpre381/Lab-03/attempt1a.vhd(50): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+# ** Error: /home/cfarrell/cpre381/Lab-03/attempt1a.vhd(40): near "g_dff": expecting "BEGIN"
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vsim work.attempt1a work.dff
+# vsim work.attempt1a work.dff 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.attempt1a(structure)#1
+# Loading work.dff(mixed)#1
+add wave sim:/attempt1a/*
+force -freeze sim:/attempt1a/n_d 01010101010101010101010101010101 0
+run 1000
+force -freeze sim:/attempt1a/n_we 1 0
+force -freeze sim:/attempt1a/n_clk 1 0, 0 {50 ns} -r 100
+run 1000
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/tb1b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tb1b
+# -- Compiling architecture behavior of tb1b
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(42): Array type for 's_d' is not constrained.
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(100): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/tb1b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tb1b
+# -- Compiling architecture behavior of tb1b
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(44): Array type for 's_d' is not constrained.
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(45): Array type for 's_q' is not constrained.
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(103): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/tb1b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tb1b
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(23): near "generic": syntax error
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(24): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/tb1b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tb1b
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(22): near ",": expecting ';'
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/tb1b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tb1b
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(22): near ",": expecting ';' or ')'
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/tb1b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tb1b
+# -- Compiling architecture behavior of tb1b
+vsim work.attempt1a work.dff work.tb1b
+# vsim work.attempt1a work.dff work.tb1b 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.attempt1a(structure)#1
+# Loading work.dff(mixed)#1
+# Loading work.tb1b(behavior)#1
+add wave sim:/tb1b/*
+run 1000
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/tb1b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tb1b
+# -- Compiling architecture behavior of tb1b
+vsim work.attempt1a work.dff work.tb1b
+# vsim work.attempt1a work.dff work.tb1b 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(116): (vopt-1167) Index value -1 is out of std.standard.natural range 0 to 2147483647.
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(116): (vopt-1272) Length of expected is 32; length of actual is 33.
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(121): Vopt Compiler exiting
+# Error loading design
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/tb1b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tb1b
+# -- Compiling architecture behavior of tb1b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/dff.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity dff
+# -- Compiling architecture mixed of dff
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/tb1b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tb1b
+# -- Compiling architecture behavior of tb1b
+vsim work.attempt1a work.dff work.tb1b
+# vsim work.attempt1a work.dff work.tb1b 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(116): (vopt-1167) Index value -1 is out of std.standard.natural range 0 to 2147483647.
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(116): (vopt-1272) Length of expected is 32; length of actual is 33.
+# ** Error: /home/cfarrell/cpre381/Lab-03/tb1b.vhd(121): Vopt Compiler exiting
+# Error loading design
+vcom -reportprogress 300 -work work {/home/cfarrell/cpre381/Lab-03/tb1b.vhd dff.vhd attempt1a.vhd tb1b.vhd}
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# ** Error: (vcom-7) Failed to open design unit file "/home/cfarrell/cpre381/Lab-03/tb1b.vhd dff.vhd attempt1a.vhd tb1b.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/dff.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity dff
+# -- Compiling architecture mixed of dff
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/tb1b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tb1b
+# -- Compiling architecture behavior of tb1b
+vsim work.attempt1a work.dff work.tb1b
+# vsim work.attempt1a work.dff work.tb1b 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.attempt1a(structure)#1
+# Loading work.dff(mixed)#1
+# Loading work.tb1b(behavior)#1
+add wave sim:/tb1b/*
+run 1000
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partd.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity partd
+# -- Compiling architecture dflow of partd
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(27): Target of signal assignment is not a signal.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(27): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(27): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(28): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(28): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(29): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(29): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(30): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(30): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(31): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(31): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(32): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(32): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(33): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(33): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(34): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(34): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(35): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(35): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(36): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(36): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(37): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(37): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(38): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(38): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(39): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(39): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(40): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(40): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(41): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(41): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(42): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(42): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(43): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(43): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(44): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(44): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(45): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(45): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(46): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(46): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(47): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(47): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(48): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(48): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(49): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(49): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(50): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(50): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(51): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(51): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(52): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(52): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(53): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(53): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(54): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(54): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(55): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(55): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(56): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(56): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(57): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(57): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(58): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(58): String literal found where non-array type std.standard.integer was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(60): near "process": expecting ';'
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partd.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity partd
+# -- Compiling architecture dflow of partd
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(26): (vcom-1014) Array type selected signal assignment expression must be of a locally static subtype.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(27): Cannot drive signal 'output' of mode IN.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(27): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(28): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(29): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(30): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(31): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(32): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(33): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(34): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(35): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(36): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(37): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(38): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(39): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(40): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(41): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(42): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(43): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(44): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(45): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(46): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(47): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(48): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(49): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(50): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(51): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(52): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(53): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(54): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(55): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(56): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(57): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(58): Select choice must be a locally static expression.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(60): near "process": expecting ';'
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partd.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity partd
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(23): near "begin": syntax error
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partd.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity partd
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(23): near "with": syntax error
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partd.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity partd
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(21): (vcom-1014) Array type selected signal assignment expression must be of a locally static subtype.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(22): Cannot drive signal 'output' of mode IN.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(22): Signal assignments not allowed in entity statement part.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(22): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(23): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(24): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(25): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(26): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(27): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(28): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(29): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(30): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(31): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(32): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(33): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(34): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(35): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(36): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(37): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(38): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(39): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(40): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(41): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(42): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(43): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(44): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(45): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(46): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(47): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(48): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(49): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(50): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(51): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(52): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(53): Select choice must be a locally static expression.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(55): near "process": expecting ';'
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partd.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity partd
+# -- Compiling architecture dflow of partd
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(21): (vcom-1014) Array type selected signal assignment expression must be of a locally static subtype.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(22): Cannot drive signal 'output' of mode IN.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(22): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(23): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(24): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(25): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(26): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(27): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(28): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(29): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(30): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(31): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(32): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(33): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(34): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(35): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(36): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(37): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(38): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(39): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(40): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(41): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(42): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(43): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(44): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(45): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(46): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(47): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(48): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(49): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(50): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(51): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(52): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(53): Select choice must be a locally static expression.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(55): near "process": expecting ';'
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partd.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity partd
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(18): near "begin": syntax error
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partd.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity partd
+# -- Compiling architecture dflow of partd
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(19): (vcom-1014) Array type selected signal assignment expression must be of a locally static subtype.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(20): Cannot drive signal 'output' of mode IN.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(20): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(21): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(22): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(23): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(24): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(25): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(26): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(27): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(28): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(29): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(30): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(31): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(32): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(33): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(34): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(35): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(36): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(37): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(38): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(39): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(40): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(41): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(42): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(43): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(44): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(45): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(46): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(47): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(48): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(49): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(50): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/partd.vhd(51): Select choice must be a locally static expression.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(53): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partd.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity partd
+# -- Compiling architecture dflow of partd
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(18): Cannot drive signal 'output' of mode IN.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partd.vhd(51): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partd.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity partd
+# -- Compiling architecture dflow of partd
+vsim work.partd
+# vsim work.partd 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.partd(dflow)#1
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb1b/s_clk'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb1b/s_rst'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb1b/s_we'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb1b/s_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb1b/s_q'. 
+add wave sim/partd/*
+# (vish-4014) No objects found matching 'sim/partd/*'.
+add wave sim:/partd/*
+force -freeze sim:/partd/input 11011 0
+run
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/parte.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity parte
+# -- Compiling architecture dflow of parte
+# ** Error: /home/cfarrell/cpre381/Lab-03/parte.vhd(50): (vcom-1014) Array type selected signal assignment expression must be of a locally static subtype.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(51): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(52): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(53): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(54): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(55): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(56): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(57): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(58): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(59): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(60): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(61): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(62): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(63): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(64): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(65): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(66): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(67): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(68): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(69): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(70): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(71): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(72): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(73): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(74): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(75): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(76): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(77): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(78): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(79): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(80): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(81): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(82): Select choice must be a locally static expression.
+# ** Error: /home/cfarrell/cpre381/Lab-03/parte.vhd(84): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/parte.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity parte
+# -- Compiling architecture dflow of parte
+# ** Error: /home/cfarrell/cpre381/Lab-03/parte.vhd(50): (vcom-1014) Array type selected signal assignment expression must be of a locally static subtype.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(51): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(52): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(53): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(54): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(55): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(56): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(57): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(58): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(59): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(60): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(61): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(62): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(63): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(64): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(65): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(66): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(67): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(68): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(69): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(70): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(71): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(72): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(73): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(74): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(75): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(76): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(77): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(78): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(79): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(80): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(81): Select choice must be a locally static expression.
+# ** Warning: /home/cfarrell/cpre381/Lab-03/parte.vhd(82): Select choice must be a locally static expression.
+# ** Error: /home/cfarrell/cpre381/Lab-03/parte.vhd(84): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/parte.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity parte
+# -- Compiling architecture dflow of parte
+vsim work.parte
+# vsim work.parte 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.parte(dflow)#1
+add wave sim:/parte/*
+force -freeze sim:/parte/sel 00111 0
+run
+force -freeze sim:/parte/i_7 00000000000000000000000001100110 0
+run
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partg.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find work.array2d.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(3): (vcom-1195) Cannot find expanded name "work.array2d".
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(3): Unknown expanded name.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(5): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partg.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity partg
+# -- Compiling architecture structure of partg
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(25): (vcom-1136) Unknown identifier "n".
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(25): Bad expression in left bound of range expression.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(25): Type error in range expression.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(26): (vcom-1136) Unknown identifier "n".
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(26): Bad expression in left bound of range expression.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(26): Type error in range expression.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(77): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(112): (vcom-1025) Formal "i_31" has already been associated (in whole) at line 111.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(81): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(82): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(83): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(84): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(85): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(86): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(87): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(88): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(89): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(90): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(91): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(92): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(93): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(94): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(95): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(96): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(97): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(98): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(99): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(100): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(101): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(102): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(103): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(104): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(105): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(106): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(107): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(108): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(109): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(110): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(111): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(114): (vcom-1035) Formal port "i_32" has OPEN or no actual associated with it.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(148): (vcom-1025) Formal "i_31" has already been associated (in whole) at line 147.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(117): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(118): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(119): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(120): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(121): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(122): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(123): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(124): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(125): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(126): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(127): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(128): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(129): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(130): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(131): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(132): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(133): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(134): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(135): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(136): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(137): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(138): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(139): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(140): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(141): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(142): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(143): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(144): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(145): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(146): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(147): Cannot resolve indexed name as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(150): (vcom-1035) Formal port "i_32" has OPEN or no actual associated with it.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(153): (vcom-1136) Unknown identifier "i_a".
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(154): (vcom-1136) Unknown identifier "output_a".
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(162): (vcom-1136) Unknown identifier "output".
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(164): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partg.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find work.array2d.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(3): (vcom-1195) Cannot find expanded name "work.array2d".
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(3): Unknown expanded name.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(5): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partg.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find work.array2d.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(3): (vcom-1195) Cannot find expanded name "work.array2d".
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(3): Unknown expanded name.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(5): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partg.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find work.array2d.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(3): (vcom-1195) Cannot find expanded name "work.array2d".
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(3): Unknown expanded name.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(5): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/parte.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity parte
+# -- Compiling architecture dflow of parte
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partd.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity partd
+# -- Compiling architecture dflow of partd
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/array2D.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling package array2d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/array2D.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling package array2d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partd.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity partd
+# -- Compiling architecture dflow of partd
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/parte.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity parte
+# -- Compiling architecture dflow of parte
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partg.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array2d
+# -- Compiling entity partg
+# -- Compiling architecture structure of partg
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(26): (vcom-1136) Unknown identifier "n".
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(26): Bad expression in left bound of range expression.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(26): Type error in range expression.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(27): (vcom-1136) Unknown identifier "n".
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(27): Bad expression in left bound of range expression.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(27): Type error in range expression.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(113): (vcom-1025) Formal "i_31" has already been associated (in whole) at line 112.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(115): (vcom-1035) Formal port "i_32" has OPEN or no actual associated with it.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(149): (vcom-1025) Formal "i_31" has already been associated (in whole) at line 148.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(151): (vcom-1035) Formal port "i_32" has OPEN or no actual associated with it.
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(154): (vcom-1136) Unknown identifier "i_a".
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(155): (vcom-1136) Unknown identifier "output_a".
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(163): (vcom-1136) Unknown identifier "output".
+# ** Error: /home/cfarrell/cpre381/Lab-03/partg.vhd(165): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partg.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array2d
+# -- Compiling entity partg
+# -- Compiling architecture structure of partg
+vsim work.array2d work.attempt1a work.partd work.parte work.partg
+# vsim work.array2d work.attempt1a work.partd work.parte work.partg 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: Top-level design unit 'array2d' must be an ENTITY, CONFIGURATION, MODULE or PROGRAM.
+# ** Error: /home/cfarrell/cpre381/Lab-03/attempt1a.vhd(24): Vopt Compiler exiting
+# Error loading design
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partg.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array2d
+# -- Compiling entity partg
+# -- Compiling architecture structure of partg
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/array2D.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling package array2d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/attempt1a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity attempt1a
+# -- Compiling architecture structure of attempt1a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/dff.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity dff
+# -- Compiling architecture mixed of dff
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partd.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity partd
+# -- Compiling architecture dflow of partd
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/parte.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity parte
+# -- Compiling architecture dflow of parte
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-03/partg.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array2d
+# -- Compiling entity partg
+# -- Compiling architecture structure of partg
+vsim work.array2d work.attempt1a work.dff work.partd work.parte work.partg
+# vsim work.array2d work.attempt1a work.dff work.partd work.parte work.partg 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: Top-level design unit 'array2d' must be an ENTITY, CONFIGURATION, MODULE or PROGRAM.
+# ** Error: /home/cfarrell/cpre381/Lab-03/attempt1a.vhd(24): Vopt Compiler exiting
+# Error loading design
+vsim work.attempt1a work.dff work.partd work.parte work.partg
+# vsim work.attempt1a work.dff work.partd work.parte work.partg 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.attempt1a(structure)#1
+# Loading work.dff(mixed)#1
+# Loading work.partd(dflow)#1
+# Loading work.parte(dflow)#1
+# Loading work.array2d
+# Loading work.partg(structure)#1
+add wave sim:/partg/*
+force -freeze sim:/partg/i_d 00000000000000001111111111111111 0
+run

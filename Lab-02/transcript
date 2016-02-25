@@ -1,0 +1,1119 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 2.6.32-504.8.1.el6.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/2by1mux.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# ** Warning: [4] /home/cfarrell/cpre381/Lab-02/2by1mux.vhd(14): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/cfarrell/cpre381/Lab-02/2by1mux.vhd(14): near "2": expecting "IDENTIFIER"
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/and2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/generate_example.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity generate_example
+# ** Error: (vcom-7) Failed to open library file "/home/cfarrell/cpre381/Lab-02/work/generate_example" in read/write/execute mode.
+# No such file or directory. (errno = ENOENT)
+# ** Error: /home/cfarrell/cpre381/Lab-02/generate_example.vhd(27): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/inv.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity inv
+# -- Compiling architecture dataflow of inv
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/OC.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity oc
+# -- Compiling architecture structure of oc
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/OC2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity oc2
+# -- Compiling architecture structure of oc2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/OCW.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ocw
+# -- Compiling architecture behavior of ocw
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/or2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part1c.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity oc
+# -- Compiling architecture structure of oc
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2d
+# -- Compiling architecture structure of part2d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2e
+# -- Compiling architecture behavior of part2e
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3a
+# -- Compiling architecture structure of part3a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3b
+# -- Compiling architecture structure of part3b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3d
+# -- Compiling architecture structure of part3d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3e
+# -- Compiling architecture behavior of part3e
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part4b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part4b
+# -- Compiling architecture structure of part4b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/tb_and2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_and2
+# -- Compiling architecture behavior of tb_and2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/tbomux.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tbomux
+# -- Compiling architecture structure of tbomux
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2c.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2c
+# -- Compiling architecture structure of part2c
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/xor2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.and2 work.inv work.or2 work.part2c work.part2d work.part2e work.xor2
+# vsim work.and2 work.inv work.or2 work.part2c work.part2d work.part2e work.xor2 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.and2(dataflow)#1
+# Loading work.inv(dataflow)#1
+# Loading work.or2(dataflow)#1
+# Loading work.part2c(structure)#1
+# Loading work.part2d(structure)#1
+# Loading work.part2e(behavior)#1
+# Loading work.xor2(dataflow)#1
+add wave sim:/part2e/*
+run 1000
+run 500
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2e
+# -- Compiling architecture behavior of part2e
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(56): Signal "s_s" is type ieee.std_logic_1164.std_logic; expecting type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(61): Signal "s_s" is type ieee.std_logic_1164.std_logic; expecting type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(75): String literal found where non-array type ieee.std_logic_1164.std_logic was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(83): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2e
+# -- Compiling architecture behavior of part2e
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(75): String literal found where non-array type ieee.std_logic_1164.std_logic was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(83): String literal found where non-array type ieee.std_logic_1164.std_logic was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(87): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2d
+# -- Compiling architecture structure of part2d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2c.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2c
+# -- Compiling architecture structure of part2c
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2e
+# -- Compiling architecture behavior of part2e
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(47): Illegal type conversion from Integer to ieee.std_logic_1164.std_logic_vector (numeric to array).
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(47): Expecting a type name, found type conversion (to ieee.std_logic_1164.std_logic_vector) instead.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(56): Signal "s_s" is type (error); expecting type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(61): Signal "s_s" is type (error); expecting type ieee.std_logic_1164.std_logic_vector.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(75): String literal found where non-array type (error) was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(83): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2d
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2d.vhd(21): Illegal type conversion from Integer to ieee.std_logic_1164.std_logic_vector (numeric to array).
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2d.vhd(21): Expecting a type name, found type conversion (to ieee.std_logic_1164.std_logic_vector) instead.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2d.vhd(24): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2c.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2c
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2c.vhd(21): Illegal type conversion from Integer to ieee.std_logic_1164.std_logic_vector (numeric to array).
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2c.vhd(21): Expecting a type name, found type conversion (to ieee.std_logic_1164.std_logic_vector) instead.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2c.vhd(24): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2e
+# -- Compiling architecture behavior of part2e
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(75): String literal found where non-array type ieee.std_logic_1164.std_logic was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(83): String literal found where non-array type ieee.std_logic_1164.std_logic was expected.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(88): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2d
+# -- Compiling architecture structure of part2d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2c.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2c
+# -- Compiling architecture structure of part2c
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2e
+# -- Compiling architecture behavior of part2e
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(75): Integer literal 1 is not of type ieee.std_logic_1164.std_logic.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(83): Integer literal 0 is not of type ieee.std_logic_1164.std_logic.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part2e.vhd(88): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2d
+# -- Compiling architecture structure of part2d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2c.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2c
+# -- Compiling architecture structure of part2c
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2e
+# -- Compiling architecture behavior of part2e
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2d
+# -- Compiling architecture structure of part2d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2c.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2c
+# -- Compiling architecture structure of part2c
+vsim work.and2 work.or2 work.part2c work.part2d work.part2e
+# vsim work.and2 work.or2 work.part2c work.part2d work.part2e 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.and2(dataflow)#1
+# Loading work.or2(dataflow)#1
+# Loading work.part2c(structure)#1
+# Loading work.part2d(structure)#1
+# Loading work.part2e(behavior)#1
+run 500
+add wave sim:/part2e/*
+run 500
+vsim work.and2 work.inv work.or2 work.part3a work.part3b work.part3d work.part3e work.xor2
+# vsim work.and2 work.inv work.or2 work.part3a work.part3b work.part3d work.part3e work.xor2 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.and2(dataflow)#1
+# Loading work.inv(dataflow)#1
+# Loading work.or2(dataflow)#1
+# Loading work.part3a(structure)#1
+# Loading work.part3b(structure)#1
+# Loading work.part3d(structure)#1
+# Loading work.part3e(behavior)#1
+# Loading work.xor2(dataflow)#1
+add wave sim:/part3e/*
+run 400
+vsim work.and2 work.inv work.or2 work.part3a work.part3b work.part3d work.part3e work.part4b work.xor2
+# vsim work.and2 work.inv work.or2 work.part3a work.part3b work.part3d work.part3e work.part4b work.xor2 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.and2(dataflow)#1
+# Loading work.inv(dataflow)#1
+# Loading work.or2(dataflow)#1
+# Loading work.part3a(structure)#1
+# Loading work.part3b(structure)#1
+# Loading work.part3d(structure)#1
+# Loading work.part3e(behavior)#1
+# Loading work.part4b(structure)#1
+# Loading work.xor2(dataflow)#1
+add wave sim:/part4b/*
+force -freeze sim:/part4b/i_a 0011 0
+force -freeze sim:/part4b/i_b 1100 0
+force -freeze sim:/part4b/c_in 0 0
+force -freeze sim:/part4b/nadd_sub 1 0
+run 500
+force -freeze sim:/part4b/i_a 0011 0
+force -freeze sim:/part4b/i_b 0001 0
+run 500
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/2by1mux.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# ** Warning: [4] /home/cfarrell/cpre381/Lab-02/2by1mux.vhd(14): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/cfarrell/cpre381/Lab-02/2by1mux.vhd(14): near "2": expecting "IDENTIFIER"
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/and2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/generate_example.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity generate_example
+# ** Error: (vcom-7) Failed to open library file "/home/cfarrell/cpre381/Lab-02/work/generate_example" in read/write/execute mode.
+# No such file or directory. (errno = ENOENT)
+# ** Error: /home/cfarrell/cpre381/Lab-02/generate_example.vhd(27): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/inv.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity inv
+# -- Compiling architecture dataflow of inv
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/OC.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity oc
+# -- Compiling architecture structure of oc
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/OC2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity oc2
+# -- Compiling architecture structure of oc2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/OCW.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ocw
+# -- Compiling architecture behavior of ocw
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/or2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part1c.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity oc
+# -- Compiling architecture structure of oc
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2d
+# -- Compiling architecture structure of part2d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2e
+# -- Compiling architecture behavior of part2e
+vsim work.and2 work.inv work.or2 work.part3a work.part3b work.part3d work.part3e work.part4b work.xor2
+# vsim work.and2 work.inv work.or2 work.part3a work.part3b work.part3d work.part3e work.part4b work.xor2 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.and2(dataflow)#1
+# Loading work.inv(dataflow)#1
+# Loading work.or2(dataflow)#1
+# Loading work.part3a(structure)#1
+# Loading work.part3b(structure)#1
+# Loading work.part3d(structure)#1
+# Loading work.part3e(behavior)#1
+# Loading work.part4b(structure)#1
+# Loading work.xor2(dataflow)#1
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3a
+# -- Compiling architecture structure of part3a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3b
+# -- Compiling architecture structure of part3b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3d
+# -- Compiling architecture structure of part3d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3e
+# -- Compiling architecture behavior of part3e
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part4b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part4b
+# -- Compiling architecture structure of part4b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/tb_and2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_and2
+# -- Compiling architecture behavior of tb_and2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/tbomux.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tbomux
+# -- Compiling architecture structure of tbomux
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2c.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2c
+# -- Compiling architecture structure of part2c
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/xor2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+add wave sim:/part4b/*
+force -freeze sim:/part4b/i_a 0011 0
+force -freeze sim:/part4b/i_b 0010 0
+force -freeze sim:/part4b/c_in 0 0
+force -freeze sim:/part4b/nadd_sub 1 0
+run 400
+force -freeze sim:/part4b/c_in 1 0
+run 300
+# Load canceled
+add wave sim:/part3e/*
+run 500
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/2by1mux.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# ** Warning: [4] /home/cfarrell/cpre381/Lab-02/2by1mux.vhd(14): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/cfarrell/cpre381/Lab-02/2by1mux.vhd(14): near "2": expecting "IDENTIFIER"
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/and2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/generate_example.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity generate_example
+# ** Error: (vcom-7) Failed to open library file "/home/cfarrell/cpre381/Lab-02/work/generate_example" in read/write/execute mode.
+# No such file or directory. (errno = ENOENT)
+# ** Error: /home/cfarrell/cpre381/Lab-02/generate_example.vhd(27): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/inv.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity inv
+# -- Compiling architecture dataflow of inv
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/OC.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity oc
+# -- Compiling architecture structure of oc
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/OC2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity oc2
+# -- Compiling architecture structure of oc2
+vsim work.and2 work.inv work.or2 work.part3a work.part3b work.part3d work.part3e work.part4b work.xor2
+# vsim work.and2 work.inv work.or2 work.part3a work.part3b work.part3d work.part3e work.part4b work.xor2 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.and2(dataflow)#1
+# Loading work.inv(dataflow)#1
+# Loading work.or2(dataflow)#1
+# Loading work.part3a(structure)#1
+# Loading work.part3b(structure)#1
+# Loading work.part3d(structure)#1
+# Loading work.part3e(behavior)#1
+# Loading work.part4b(structure)#1
+# Loading work.xor2(dataflow)#1
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/OCW.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ocw
+# -- Compiling architecture behavior of ocw
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/or2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part1c.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity oc
+# -- Compiling architecture structure of oc
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2d
+# -- Compiling architecture structure of part2d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2e
+# -- Compiling architecture behavior of part2e
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3a
+# -- Compiling architecture structure of part3a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3b
+# -- Compiling architecture structure of part3b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3d
+# -- Compiling architecture structure of part3d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3e
+# -- Compiling architecture behavior of part3e
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part4b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part4b
+# -- Compiling architecture structure of part4b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/tb_and2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_and2
+# -- Compiling architecture behavior of tb_and2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/tbomux.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tbomux
+# -- Compiling architecture structure of tbomux
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2c.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2c
+# -- Compiling architecture structure of part2c
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/xor2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+add wave sim:/part3e/*
+run 300
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part4b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part4b
+# -- Compiling architecture structure of part4b
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(51): No feasible entries for infix operator "+".
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(51): Bad expression in actual part of association element "o_f".
+# ** Warning: /home/cfarrell/cpre381/Lab-02/part4b.vhd(51): (vcom-1162) Formal "o_f" of mode OUT cannot be associated with an expression.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(51): Infix expression is type (error); expecting type ieee.std_logic_1164.std_logic.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(86): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part4b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part4b
+# -- Compiling architecture structure of part4b
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(51): No feasible entries for infix operator "+".
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(51): Bad expression in actual part of association element "o_f".
+# ** Warning: /home/cfarrell/cpre381/Lab-02/part4b.vhd(51): (vcom-1162) Formal "o_f" of mode OUT cannot be associated with an expression.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(51): Infix expression is type (error); expecting type ieee.std_logic_1164.std_logic.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(86): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part4b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part4b
+# -- Compiling architecture structure of part4b
+force -freeze sim:/part4b/i_a 0111 0
+force -freeze sim:/part4b/i_b 0100 0
+force -freeze sim:/part4b/c_in 0 0
+run 500
+force -freeze sim:/part4b/nadd_sub 1 0
+force -freeze sim:/part4b/nadd_sub 1 0
+add wave sim:/part4b/*
+run 500
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part4b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part4b
+# -- Compiling architecture structure of part4b
+# ** Warning: [4] /home/cfarrell/cpre381/Lab-02/part4b.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(34): near "2": expecting "IDENTIFIER"
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part4b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part4b
+# -- Compiling architecture structure of part4b
+# ** Warning: [4] /home/cfarrell/cpre381/Lab-02/part4b.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(34): near "2": expecting "IDENTIFIER"
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/2by1mux.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# ** Warning: [4] /home/cfarrell/cpre381/Lab-02/2by1mux.vhd(14): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/cfarrell/cpre381/Lab-02/2by1mux.vhd(14): near "2": expecting "IDENTIFIER"
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/inv.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity inv
+# -- Compiling architecture dataflow of inv
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/and2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/or2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3e
+# -- Compiling architecture behavior of part3e
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3d
+# -- Compiling architecture structure of part3d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3b
+# -- Compiling architecture structure of part3b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3a
+# -- Compiling architecture structure of part3a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/xor2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/and2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/inv.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity inv
+# -- Compiling architecture dataflow of inv
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/or2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3a
+# -- Compiling architecture structure of part3a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3b
+# -- Compiling architecture structure of part3b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3d
+# -- Compiling architecture structure of part3d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3e
+# -- Compiling architecture behavior of part3e
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part4b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part4b
+# -- Compiling architecture structure of part4b
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(49): Actual (prefix expression) for formal "i_a" is not a globally static expression.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(63): Actual (prefix expression) for formal "i_a" is not a globally static expression.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(76): Actual (prefix expression) for formal "i_a" is not a globally static expression.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(89): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/tbomux.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tbomux
+# -- Compiling architecture structure of tbomux
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/xor2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/and2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/inv.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity inv
+# -- Compiling architecture dataflow of inv
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/or2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3a
+# -- Compiling architecture structure of part3a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3b
+# -- Compiling architecture structure of part3b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3d
+# -- Compiling architecture structure of part3d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3e
+# -- Compiling architecture behavior of part3e
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part4b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part4b
+# -- Compiling architecture structure of part4b
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(56): near "o_E": expecting ',' or ')'
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(57): Statement cannot be labeled.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(73): near "o_E": expecting ',' or ')'
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(74): Statement cannot be labeled.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(89): near "o_E": expecting ',' or ')'
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(90): Statement cannot be labeled.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(104): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/tbomux.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tbomux
+# -- Compiling architecture structure of tbomux
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/xor2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/and2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/inv.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity inv
+# -- Compiling architecture dataflow of inv
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/or2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3a
+# -- Compiling architecture structure of part3a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3b
+# -- Compiling architecture structure of part3b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3d
+# -- Compiling architecture structure of part3d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3e
+# -- Compiling architecture behavior of part3e
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part4b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part4b
+# -- Compiling architecture structure of part4b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/tbomux.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tbomux
+# -- Compiling architecture structure of tbomux
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/xor2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.and2 work.inv work.oc2 work.or2 work.part3a work.part3b work.part3d work.part3e work.part4b work.tbomux
+# vsim work.and2 work.inv work.oc2 work.or2 work.part3a work.part3b work.part3d work.part3e work.part4b work.tbomux 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: [1] /home/cfarrell/cpre381/Lab-02/part4b.vhd(61): (vopt-3473) Component instance "tbomux_1 : tbomux" is not bound.
+# ** Warning: [1] /home/cfarrell/cpre381/Lab-02/part4b.vhd(78): (vopt-3473) Component instance "tbomux_2 : tbomux" is not bound.
+# ** Warning: [1] /home/cfarrell/cpre381/Lab-02/part4b.vhd(78): (vopt-3473) Component instance "tbomux_2 : tbomux" is not bound.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(89): (vopt-1133) Type mismatch for port "i_a" in component "oc2" when binding to entity "oc2".
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(89): (vopt-1133) Type mismatch for port "o_e" in component "oc2" when binding to entity "oc2".
+# ** Error: __VHDL_instantiation(1): /home/cfarrell/cpre381/Lab-02/part4b.vhd(61): Bad default binding for component instance "tbomux_1 : tbomux".
+#  (Component port "o_f" is not on the entity.)
+# ** Warning: [1] /home/cfarrell/cpre381/Lab-02/part4b.vhd(94): (vopt-3473) Component instance "tbomux_3 : tbomux" is not bound.
+# Optimization failed
+# Error loading design
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/and2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/inv.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity inv
+# -- Compiling architecture dataflow of inv
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/or2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3a
+# -- Compiling architecture structure of part3a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3b
+# -- Compiling architecture structure of part3b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3d
+# -- Compiling architecture structure of part3d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3e
+# -- Compiling architecture behavior of part3e
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part4b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part4b
+# -- Compiling architecture structure of part4b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/tbomux.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tbomux
+# -- Compiling architecture structure of tbomux
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/xor2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.and2 work.inv work.oc2 work.or2 work.part3a work.part3b work.part3d work.part3e work.part4b work.tbomux
+# vsim work.and2 work.inv work.oc2 work.or2 work.part3a work.part3b work.part3d work.part3e work.part4b work.tbomux 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: [1] /home/cfarrell/cpre381/Lab-02/part4b.vhd(62): (vopt-3473) Component instance "tbomux_1 : tbomux" is not bound.
+# ** Warning: [1] /home/cfarrell/cpre381/Lab-02/part4b.vhd(79): (vopt-3473) Component instance "tbomux_2 : tbomux" is not bound.
+# ** Warning: [1] /home/cfarrell/cpre381/Lab-02/part4b.vhd(79): (vopt-3473) Component instance "tbomux_2 : tbomux" is not bound.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(90): (vopt-1133) Type mismatch for port "i_a" in component "oc2" when binding to entity "oc2".
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(90): (vopt-1133) Type mismatch for port "o_e" in component "oc2" when binding to entity "oc2".
+# ** Error: __VHDL_instantiation(1): /home/cfarrell/cpre381/Lab-02/part4b.vhd(62): Bad default binding for component instance "tbomux_1 : tbomux".
+#  (Component port "o_f" is not on the entity.)
+# ** Warning: [1] /home/cfarrell/cpre381/Lab-02/part4b.vhd(95): (vopt-3473) Component instance "tbomux_3 : tbomux" is not bound.
+# Optimization failed
+# Error loading design
+vdel -all -lib work
+vlib work
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/2by1mux.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# ** Warning: [4] /home/cfarrell/cpre381/Lab-02/2by1mux.vhd(14): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/cfarrell/cpre381/Lab-02/2by1mux.vhd(14): near "2": expecting "IDENTIFIER"
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/and2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/generate_example.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity generate_example
+# -- Compiling architecture structure of generate_example
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/inv.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity inv
+# -- Compiling architecture dataflow of inv
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/OC.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity oc
+# -- Compiling architecture structure of oc
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/OC2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity oc2
+# -- Compiling architecture structure of oc2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/OCW.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ocw
+# -- Compiling architecture behavior of ocw
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/or2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part1c.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity oc
+# -- Compiling architecture structure of oc
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2d
+# -- Compiling architecture structure of part2d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2e
+# -- Compiling architecture behavior of part2e
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3a.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3a
+# -- Compiling architecture structure of part3a
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3b
+# -- Compiling architecture structure of part3b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3d.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3d
+# -- Compiling architecture structure of part3d
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part3e.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part3e
+# -- Compiling architecture behavior of part3e
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part4b.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part4b
+# -- Compiling architecture structure of part4b
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/tb_and2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_and2
+# -- Compiling architecture behavior of tb_and2
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/tbomux.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity tbomux
+# -- Compiling architecture structure of tbomux
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/part2c.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity part2c
+# -- Compiling architecture structure of part2c
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Lab-02/xor2.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.and2 work.inv work.oc2 work.or2 work.part3a work.part3b work.part3d work.part3e work.part4b work.tbomux
+# vsim work.and2 work.inv work.oc2 work.or2 work.part3a work.part3b work.part3d work.part3e work.part4b work.tbomux 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: [1] /home/cfarrell/cpre381/Lab-02/part4b.vhd(62): (vopt-3473) Component instance "tbomux_1 : tbomux" is not bound.
+# ** Warning: [1] /home/cfarrell/cpre381/Lab-02/part4b.vhd(79): (vopt-3473) Component instance "tbomux_2 : tbomux" is not bound.
+# ** Warning: [1] /home/cfarrell/cpre381/Lab-02/part4b.vhd(79): (vopt-3473) Component instance "tbomux_2 : tbomux" is not bound.
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(90): (vopt-1133) Type mismatch for port "i_a" in component "oc2" when binding to entity "oc2".
+# ** Error: /home/cfarrell/cpre381/Lab-02/part4b.vhd(90): (vopt-1133) Type mismatch for port "o_e" in component "oc2" when binding to entity "oc2".
+# ** Error: __VHDL_instantiation(1): /home/cfarrell/cpre381/Lab-02/part4b.vhd(62): Bad default binding for component instance "tbomux_1 : tbomux".
+#  (Component port "o_f" is not on the entity.)
+# ** Warning: [1] /home/cfarrell/cpre381/Lab-02/part4b.vhd(95): (vopt-3473) Component instance "tbomux_3 : tbomux" is not bound.
+# Optimization failed
+# Error loading design

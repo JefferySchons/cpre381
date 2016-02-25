@@ -1,0 +1,164 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use work.array2D.all;
+
+entity partg is
+  port(i_CLK        : in std_logic;     -- Clock input
+       i_RST        : in std_logic_vector(31 downto 0); -- reset input
+       i_RD         : in std_logic_vector(4 downto 0);     -- Register destination input
+       i_R1         : in std_logic_vector(4 downto 0);     -- Register read 1
+       i_R2         : in std_logic_vector(4 downto 0);     -- Register read 2
+       i_D          : in std_logic_vector(31 downto 0);     -- Data value input
+       output1      : out std_logic_vector(31 downto 0);   -- Data1 value output
+       output2      : out std_logic_vector(31 downto 0));   -- Data2 value output
+end partg;
+
+architecture structure of partg is
+
+signal s_WE :std_logic_vector(31 downto 0); 
+signal s_Q : array32_bit(31 downto 0);
+
+component attempt1a
+  port(n_CLK        : in std_logic;     -- Clock input
+       n_RST        : in std_logic;     -- Reset input
+       n_WE         : in std_logic;     -- Write enable input
+       n_D          : in std_logic_vector(31 downto 0);     -- Data value input
+       p_Q     : out std_logic_vector(31 downto 0));   -- Data value output
+end component;
+
+component partd 
+  port(input      : in std_logic_vector(4 downto 0);
+       output     : out std_logic_vector(31 downto 0));
+end component;
+
+component parte
+  port(i_1  : in std_logic_vector(31 downto 0);
+       i_2  : in std_logic_vector(31 downto 0);
+       i_3  : in std_logic_vector(31 downto 0);
+       i_4  : in std_logic_vector(31 downto 0);
+       i_5  : in std_logic_vector(31 downto 0);
+       i_6  : in std_logic_vector(31 downto 0);
+       i_7  : in std_logic_vector(31 downto 0);
+       i_8  : in std_logic_vector(31 downto 0);
+       i_9  : in std_logic_vector(31 downto 0);
+       i_10 : in std_logic_vector(31 downto 0);
+       i_11 : in std_logic_vector(31 downto 0);
+       i_12 : in std_logic_vector(31 downto 0);
+       i_13 : in std_logic_vector(31 downto 0);
+       i_14 : in std_logic_vector(31 downto 0);
+       i_15 : in std_logic_vector(31 downto 0);
+       i_16 : in std_logic_vector(31 downto 0);
+       i_17 : in std_logic_vector(31 downto 0);
+       i_18 : in std_logic_vector(31 downto 0);
+       i_19 : in std_logic_vector(31 downto 0);
+       i_20 : in std_logic_vector(31 downto 0);
+       i_21 : in std_logic_vector(31 downto 0);
+       i_22 : in std_logic_vector(31 downto 0);
+       i_23 : in std_logic_vector(31 downto 0);
+       i_24 : in std_logic_vector(31 downto 0);
+       i_25 : in std_logic_vector(31 downto 0);
+       i_26 : in std_logic_vector(31 downto 0);
+       i_27 : in std_logic_vector(31 downto 0);
+       i_28 : in std_logic_vector(31 downto 0);
+       i_29 : in std_logic_vector(31 downto 0);
+       i_30 : in std_logic_vector(31 downto 0);
+       i_31 : in std_logic_vector(31 downto 0);
+       i_32 : in std_logic_vector(31 downto 0);
+       sel  : in std_logic_vector(4 downto 0);
+       output  : out std_logic_vector(31 downto 0));
+end component;
+
+begin 
+  reg1 : attempt1a
+    port map(n_CLK => i_CLK,
+             n_RST => '1',
+             n_WE => '0',
+             n_D => i_D,
+             p_Q => s_Q(0));
+  
+  
+    multiplexer : parte
+      port map(i_1  =>s_Q(0),
+               i_2  =>s_Q(1),
+               i_3  =>s_Q(2),
+               i_4  =>s_Q(3),
+               i_5  =>s_Q(4),
+               i_6  =>s_Q(5),
+               i_7  =>s_Q(6),
+               i_8  =>s_Q(7),
+               i_9  =>s_Q(8),
+               i_10 =>s_Q(9),
+               i_11 =>s_Q(10),
+               i_12 =>s_Q(11),
+               i_13 =>s_Q(12),
+               i_14 =>s_Q(13),
+               i_15 =>s_Q(14),
+               i_16 =>s_Q(15),
+               i_17 =>s_Q(16),
+               i_18 =>s_Q(17),
+               i_19 =>s_Q(18),
+               i_20 =>s_Q(19),
+               i_21 =>s_Q(20),
+               i_22 =>s_Q(21),
+               i_23 =>s_Q(22),
+               i_24 =>s_Q(23),
+               i_25 =>s_Q(24),
+               i_26 =>s_Q(25),
+               i_27  =>s_Q(26),
+               i_28  =>s_Q(27),
+               i_29  =>s_Q(28),
+               i_30  =>s_Q(29),
+               i_31  =>s_Q(30),
+               i_32  =>s_Q(31),
+               sel  => i_R1,
+               output  => output1);
+       
+    multiplexer2 :parte
+      port map(i_1  =>s_Q(0),
+               i_2  =>s_Q(1),
+               i_3  =>s_Q(2),
+               i_4  =>s_Q(3),
+               i_5  =>s_Q(4),
+               i_6  =>s_Q(5),
+               i_7  =>s_Q(6),
+               i_8  =>s_Q(7),
+               i_9  =>s_Q(8),
+               i_10 =>s_Q(9),
+               i_11 =>s_Q(10),
+               i_12 =>s_Q(11),
+               i_13 =>s_Q(12),
+               i_14 =>s_Q(13),
+               i_15 =>s_Q(14),
+               i_16 =>s_Q(15),
+               i_17 =>s_Q(16),
+               i_18 =>s_Q(17),
+               i_19 =>s_Q(18),
+               i_20 =>s_Q(19),
+               i_21 =>s_Q(20),
+               i_22 =>s_Q(21),
+               i_23 =>s_Q(22),
+               i_24 =>s_Q(23),
+               i_25 =>s_Q(24),
+               i_26 =>s_Q(25),
+               i_27  =>s_Q(26),
+               i_28  =>s_Q(27),
+               i_29  =>s_Q(28),
+               i_30  =>s_Q(29),
+               i_31  =>s_Q(30),
+               i_32  =>s_Q(31),
+               sel  => i_R2,
+               output  => output2);
+       
+      decoder : partd
+        port map(input      => i_RD,
+                 output     => s_WE);
+  
+  	registerLoop : For i in 1 to 31 generate
+    		reg2: attempt1a
+    			port map(n_CLK => i_CLK,
+             			n_RST => i_RST(i),
+             			n_WE => s_WE(i),
+             			n_D => i_D,
+             			p_Q => s_Q(i)); 
+   	 end generate;  
+end structure;

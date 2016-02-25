@@ -1,0 +1,36 @@
+/home/cfarrell/cpre381/Lab-02/inv.vhd {1 {vcom -work work -2002 -explicit -vopt /home/cfarrell/cpre381/Lab-02/inv.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity inv
+-- Compiling architecture dataflow of inv
+
+} {} {}} /home/cfarrell/cpre381/Lab-02/and2.vhd {1 {vcom -work work -2002 -explicit -vopt /home/cfarrell/cpre381/Lab-02/and2.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity and2
+-- Compiling architecture dataflow of and2
+
+} {} {}} /home/cfarrell/cpre381/Lab-02/tb_and2.vhd {1 {vcom -work work -2002 -explicit -vopt /home/cfarrell/cpre381/Lab-02/tb_and2.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity tb_and2
+-- Compiling architecture behavior of tb_and2
+
+} {} {}} /home/cfarrell/cpre381/Lab-02/xor2.vhd {1 {vcom -work work -2002 -explicit -vopt /home/cfarrell/cpre381/Lab-02/xor2.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity xor2
+-- Compiling architecture dataflow of xor2
+
+} {} {}} /home/cfarrell/cpre381/Lab-02/or2.vhd {1 {vcom -work work -2002 -explicit -vopt /home/cfarrell/cpre381/Lab-02/or2.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity or2
+-- Compiling architecture dataflow of or2
+
+} {} {}}

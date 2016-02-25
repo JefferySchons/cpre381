@@ -1,0 +1,226 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 2.6.32-504.8.1.el6.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Cannot determine language of /home/cfarrell/cpre381/Project-A-Part1
+# Cannot determine language of /home/cfarrell/cpre381/Project-A-Part1
+# Cannot determine language of /home/cfarrell/cpre381/Project-A-Part1
+# Cannot determine language of /home/cfarrell/cpre381/Project-A-Part1
+# Cannot determine language of /home/cfarrell/cpre381/Project-A-Part1
+# Cannot determine language of /home/cfarrell/cpre381/Project-A-Part1
+# Cannot determine language of /home/cfarrell/cpre381/Project-A-Part1
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Project-A-Part1/tb_cpu0.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling entity tb_cpu0
+# -- Compiling architecture behavior of tb_cpu0
+# -- Loading entity cpu
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Project-A-Part1/mips32.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package numeric_std
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Project-A-Part1/mem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Project-A-Part1/cpu_entity.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling entity cpu
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Project-A-Part1/cpu_behavior.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package mips32
+# -- Compiling architecture behavioral of cpu
+# -- Loading entity cpu
+vsim work.tb_cpu0
+# vsim work.tb_cpu0 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu0(behavior)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+# Loading work.cpu(behavioral)#1
+add wave sim:/tb_cpu0/*
+run
+# ** Note:  ------------- CPU0 EXECUTION starts --------------------
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu0/cpu0
+run -continue
+run 1000
+run 10000
+add wave sim:/tb_cpu0/*
+vsim work.tb_cpu0
+# vsim work.tb_cpu0 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu0(behavior)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+# Loading work.cpu(behavioral)#1
+add wave sim:/tb_cpu0/*
+run 1000
+# ** Note:  ------------- CPU0 EXECUTION starts --------------------
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu0/cpu0
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Project-A-Part1/tb_cpu0.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling entity tb_cpu0
+# -- Compiling architecture behavior of tb_cpu0
+# -- Loading entity cpu
+vsim work.tb_cpu0
+# vsim work.tb_cpu0 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu0(behavior)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+# Loading work.cpu(behavioral)#1
+add wave sim:/tb_cpu0/*
+run 1000
+# ** Note:  ------------- CPU0 EXECUTION starts --------------------
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu0/cpu0
+run 6000
+vsim work.tb_cpu0
+# vsim work.tb_cpu0 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu0(behavior)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+# Loading work.cpu(behavioral)#1
+add wave sim:/tb_cpu0/*
+run 8000
+# ** Note:  ------------- CPU0 EXECUTION starts --------------------
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu0/cpu0
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Project-A-Part1/cpu_behavior.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package mips32
+# -- Compiling architecture behavioral of cpu
+# -- Loading entity cpu
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Project-A-Part1/cpu_entity.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling entity cpu
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Project-A-Part1/mem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+vcom -reportprogress 30 -work work /home/cfarrell/cpre381/Project-A-Part1/mips32.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package numeric_std
+vcom -reportprogress 30 -work work /home/cfarrell/cpre381/Project-A-Part1/tb_cpu0.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling entity tb_cpu0
+# -- Compiling architecture behavior of tb_cpu0
+# -- Loading entity cpu
+vsim work.tb_cpu0
+# vsim work.tb_cpu0 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu0(behavior)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+# Loading work.cpu(behavioral)#1
+add wave sim:/tb_cpu0/*
+run 8000
+# ** Note:  ------------- CPU0 EXECUTION starts --------------------
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu0/cpu0
+vcom -reportprogress 300 -work work /home/cfarrell/cpre381/Project-A-Part1/tb_cpu0.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling entity tb_cpu0
+# -- Compiling architecture behavior of tb_cpu0
+# -- Loading entity cpu
+vsim work.tb_cpu0
+# vsim work.tb_cpu0 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu0(behavior)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+# Loading work.cpu(behavioral)#1
+add wave sim:/tb_cpu0/*
+run 8000
+# ** Note:  ------------- CPU0 EXECUTION starts --------------------
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu0/cpu0
